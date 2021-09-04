@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports.hello = async (event) => {
+module.exports.getProductsList = async (event) => {
   return {
     statusCode: 200,
     headers: {
